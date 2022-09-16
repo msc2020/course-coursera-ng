@@ -1,0 +1,13 @@
+Using LIBSVM in MATLAB/Octave
+
+In the optional section of this exercise, Prof Ng recommended that we use LIBSVM to solve the problem.
+
+http://www.csie.ntu.edu.tw/~cjlin/libsvm/
+
+Installing LIBSVM on MATLAB/Octave is very easy.
+
+    After downloading and unzipping the LIBSVM package, open MATLAB/Octave.
+    Go to the directory of the MATLAB/Octave version, e.g. "E:/CourseraML/machine-learning-ex6/ex6/libsvm-3.21/matlab"
+    Enter "make" in the command window.
+    That's it! You're done! Now read the README file in the MATLAB directory, and learn how to use svmtrain and svmpredict function.
+    In short, the syntax of these two functions are:model = svmtrain( trainingLabelVector, trainingInstanceMatrix [, 'libsvmOptions'])[predictedLabel, accuracy, decisionValues/probEstimates] = svmpredict( testingLabelVector, testingInstanceMatrix, model [, 'libsvmOptions']);
